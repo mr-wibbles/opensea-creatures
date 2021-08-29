@@ -43,7 +43,7 @@ module.exports = {
         return new HDWalletProvider(MNEMONIC, mainnetNodeUrl);
       },
       gas: 5000000,
-      gasPrice: 5000000000,
+      gasPrice: 25000000000, // in Wei
     },
   },
   mocha: {

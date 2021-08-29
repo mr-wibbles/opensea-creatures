@@ -1,16 +1,4 @@
 const Creature = artifacts.require("./Creature.sol");
-const CreatureFactory = artifacts.require("./CreatureFactory.sol");
-const CreatureLootBox = artifacts.require("./CreatureLootBox.sol");
-const CreatureAccessory = artifacts.require("../contracts/CreatureAccessory.sol");
-const CreatureAccessoryFactory = artifacts.require("../contracts/CreatureAccessoryFactory.sol");
-const CreatureAccessoryLootBox = artifacts.require(
-  "../contracts/CreatureAccessoryLootBox.sol"
-);
-const LootBoxRandomness = artifacts.require(
-  "../contracts/LootBoxRandomness.sol"
-);
-
-const setupCreatureAccessories = require("../lib/setupCreatureAccessories.js");
 
 // If you want to hardcode what deploys, comment out process.env.X and use
 // true/false;
